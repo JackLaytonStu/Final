@@ -1,0 +1,112 @@
+html, body, h1, h2, h3, h4, ul, ol, li, p, a{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font: inherit;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #adadad;
+}
+#OP {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 2px 5px #777;
+    z-index: 1000;
+}
+.username {
+    font-weight: lighter;
+    padding: 0px 10px;
+}
+.opText {
+    padding: 0px 10px;
+    font-size: 32px;
+}
+#comments {
+    margin-top: 80px;
+    padding: 10px;
+}
+.comment {
+    display: block;
+    flex-direction: column;
+    background-color: #d3d4d2;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.buttons {   
+    margin: 5px;
+    float: right;
+}
+.editButton { 
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+    cursor: pointer;
+    color: #3ca7ab;
+    margin-right: 5px;
+   
+}
+.deleteButton {
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+    cursor: pointer;
+    color: #3ca7ab;
+
+}
+.commentSubstance {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+.username {
+    
+}
+.commentText {
+    
+    font-size: 20px;
+}
+
+#createComment {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    bottom: 0;
+    width: 99%;
+    background-color: #F8F9FA;
+    padding: 10px;
+    box-shadow: 0 -1px 5px #777;
+    z-index: 1000;
+    
+}
+#displayName {
+    width: 100px;
+    margin: 5px 10px 5px 0px;
+    padding: 5px 0px;
+    
+}
+
+#comment {
+    align-self: center;
+    width: 90%;
+    margin: 5px 10px 5px 0px;
+    padding: 5px 0px;
+}
+#submitButton {
+    /*this should be working, but god hates me or something */
+    background:none;
+    border:none;
+    cursor: pointer;
+    display: inline;
+    width: 50px;
+    margin: 5px 0;
+    color: #3ca7ab;
+    margin-right: 15px;
+    font-size: 16px;
+}
